@@ -1,0 +1,12 @@
+defaults:
+  - genomics: default
+  - imaging: default
+  - nlp: default
+  - rl: default
+
+mlflow:
+  uri: file:${oc.env:MLFLOW_URI,./artifacts/mlruns}
+  experiment: pon-sandbox
+
+seed: 42
+

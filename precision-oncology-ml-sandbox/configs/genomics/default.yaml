@@ -1,0 +1,8 @@
+samples: 200
+loci: 1000
+signal_loci: 30
+age_effect: 0.015
+batch_effect: 0.5
+calibrate: true
+cv_folds: 5
+

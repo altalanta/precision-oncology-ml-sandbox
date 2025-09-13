@@ -1,0 +1,6 @@
+top_k: 3
+use_sentence_transformer: false
+min_year: 2015
+max_year: 2024
+docs_per_topic: 12
+
